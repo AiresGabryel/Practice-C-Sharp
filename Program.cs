@@ -1,6 +1,7 @@
 ﻿// Exemplo de uso da classe Pessoa
 using ExemploFundamentos.Models;
 
+// // rodar o comando = dotnet run
 
 // //instanciando um objeto do tipo Pessoa
 // Pessoa p = new Pessoa(); // p =  variável
@@ -110,25 +111,47 @@ using ExemploFundamentos.Models;
 // else
 // { Console.WriteLine("Não é uma vogal"); }
 
-//_________________________Switch Case____________________________________
-Console.WriteLine("Digite uma letra");
-string letra = Console.ReadLine();
+// //_________________________Switch Case____________________________________
+// Console.WriteLine("Digite uma letra");
+// string letra = Console.ReadLine();
 
-switch (letra)
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("Vogal");
-        break;
-    default:
-        Console.WriteLine("Nao é uma vogal");
-        break;
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("Vogal");
+//         break;
+//     default:
+//         Console.WriteLine("Nao é uma vogal");
+//         break;
 
-}   
+// }   
+
+// //___________Operador OR________________
+// bool ehMaiorDeIdade = true;
+// bool possuiAutorizacaoDoResponsavel = false;
+
+// if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
+// { Console.WriteLine("Entrada liberada!"); }
+// else
+// { Console.WriteLine("Entrada não liberada"); }
+
+// //___________Operador AND_________
+// bool possuiPresencaMinima = true;
+// double media = 7.5;
+// if (possuiPresencaMinima && media >= 7)
+// { Console.WriteLine("Aprovado"); }
+// else
+// { Console.WriteLine("Reprovado"); }
 
 
-
-// rodar o comando = dotnet run
+// //__________Operador Not__________
+// bool choveu = false;
+// bool estaTarde = false;
+// if (!choveu && !estaTarde)
+// { Console.WriteLine("Vou pedalar"); }
+// else
+// { Console.WriteLine("Vou pedalar outro dia"); }
